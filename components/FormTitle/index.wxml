@@ -1,0 +1,6 @@
+<view class="formTitle-page">
+        <view class="formTitle-decoration" ></view>
+        <view class="formTitle-text">
+            {{title}}
+        </view>
+    </view>

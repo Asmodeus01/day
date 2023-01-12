@@ -1,3 +1,5 @@
 {
-    "usingComponents": {}
+    "usingComponents": {
+        "FormTitle": "/components/FormTitle"
+      }
 }

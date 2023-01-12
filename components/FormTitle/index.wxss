@@ -1,0 +1,19 @@
+.formTitle-page{
+    width: 100%;
+    display: flex;
+}
+.formTitle-decoration{
+    width: 4px;
+    height: auto;
+    background:#ee454e;
+    border-radius: 0 7px 8px 0;
+   
+}
+.formTitle-text{
+    margin:0 10px;
+}
+.formTitle-text:after{
+    content: "*";
+    color: #ee454e;
+    margin-right: 4px;
+}

@@ -1,2 +1,8 @@
-<!--pages/clock/index.wxml-->
-<text>pages/clock/index.wxml</text>
+<view class="punchIn-page">
+    <FormTitle title='选择打卡类型' isRequired='true' />
+    <view class="statusType-block">
+    <view class="contain_list" wx:for="{{statusType}}" wx:key="index" bindtap="btnClick" data-item='{{item}}'>
+        {{item.label}}
+    </view>
+    </view>
+</view>

@@ -5,7 +5,38 @@ Page({
      * 页面的初始数据
      */
     data: {
-
+        statusType:[
+            {
+            value:'朗读',
+            label:'朗读'
+        },{
+            value:'跳绳',
+            label:'跳绳'
+        },
+        {
+            value:'家务',
+            label:'家务'
+        },
+        {
+            value:'绘画',
+            label:'绘画'
+        },
+        {
+            value:'外语',
+            label:'外语'
+        },{
+            value:'音乐',
+            label:'音乐'
+        },
+        {
+            value:'跑步',
+            label:'跑步'
+        },
+        {
+            value:'...',
+            label:'...'
+        },
+    ]
     },
 
     /**
